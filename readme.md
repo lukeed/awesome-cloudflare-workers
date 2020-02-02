@@ -4,10 +4,9 @@
 
 A curated list of awesome articles & code for [Cloudflare Workers](https://workers.cloudflare.com/).  They are similar to [browsers' Service Workers](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API), but in the cloud--flare.
 
-Inspired by the [awesome](https://github.com/sindresorhus/awesome) list.  (A bit different, since the CSV dump contains many other links that didn't make the 'awesome' list.)
+Inspired by the [awesome](https://github.com/sindresorhus/awesome) list.  (A bit different, since the [CSV bookmark dump](https://github.com/tomByrer/awesome-cloudflare-workers/blob/master/cloudflare-workers-bookmarks.csv#L1) contains *many* other links that didn't make the 'awesome' list.)
 
-Please use the [Link Suggestion Form](https://airtable.com/shryEZ28iLgjBbTCE) to add an URL to this list.  Use Issues only to fix something, suggest a new catgory, tag, etc.
-
+Please use the [Link Suggestion Form](https://airtable.com/shryEZ28iLgjBbTCE) to add an URL to this list.  To fix something, suggest a new catgory, tag, etc, reach me on Twitter.
 
 ## Contents
 
@@ -24,39 +23,44 @@ Please use the [Link Suggestion Form](https://airtable.com/shryEZ28iLgjBbTCE) to
 
 ## Official
 
-- [Cloudflare's Worker Forum / BBS](https://community.cloudflare.com/c/developers/workers) - Offical community forum.
 - [Wrangler: offiical CLI tool](https://github.com/cloudflare/wrangler) (WASM, CLI, tool, Rust) ([brief tutorial](https://dev.to/cloudflareworkers/a-brief-guide-to-what-s-new-with-cloudflare-workers-di8)) - Available via `npm` & `cargo`, can build & deploy JS, Rust, & C/C++ projects via templates.
+- [Cloudflare's Worker Forum / BBS](https://community.cloudflare.com/c/developers/workers) - Offical community forum.
 - [Official Documentation](https://developers.cloudflare.com/workers/about/) - General docs, includes configurations, Cf KeyValue data store, and recipes.
 - [Official Blog](https://blog.cloudflare.com/tag/workers/) - Cloudflare's blog posts tagged 'worker'.
 
 ## Boss
 
-- [Diving into Technical SEO](https://blog.cloudflare.com/diving-into-technical-seo-cloudflare-workers/) (article, optmimize, SEO, TypeScript) - Modifying incomming & outgoing requests, inject Hreflang tags,, redirects, etc.
-- [Serverless PWA using React](https://github.com/cloudflare/workers-react-pwa-example) (article, ReactJS, JS) ([Cloudflare article builds up example script](https://blog.cloudflare.com/serverless-pwa-react-cloudflare-workers/)) - Terraform deploy srcipt included.
-- [Serverless Meetup with Cloudflare](https://www.heavybit.com/library/blog/serverless-meetup-with-cloudflare/) (video, JS) ([cued to examples of CFWorker usage](https://youtu.be/kGeu2GzyVKw?t=473)) - Several talks describing CfWorkers.
-- [image shrinking with WebAssembly](https://github.com/cloudflare/cloudflare-workers-wasm-demo) (optmimize, image, WASM, C) - Image resizing that runs on Cloudflare's edge network.
+- [Built with Workers Shocase](https://workers.cloudflare.com/built-with/) (GraphQL, GatsbyJS, ReactJS, JS) ([source](https://github.com/cloudflare/built-with-workers)) - Official shocase of websites & projects built with Cloudflare Workers.
 
 ## Article
 
+- [Blog app](https://telex.blog/) (KV, JS) ([source](https://github.com/panda-sandeep/telex)) - Write posts anonymously.
+- [Testing Cloudflare workers](https://findwork.dev/blog/testing-cloudflare-workers/) (test, tool, JS) - There is no extensive tutorial on how to test Cloudflare workers, so I wrote one.
+- [Deploy a React App](https://developers.cloudflare.com/workers/tutorials/deploy-a-react-app/) (ReactJS, video, JS) ([source](https://github.com/cloudflare/react-workers-template)) - .
+- [simple todo list app using KV & 2 workers](https://github.com/signalnerve/cloudflare-workers-todos) (app, frontend, KV, JS) ([DEV.to](https://dev.to/cloudflareworkers/building-a-to-do-list-application-with-cloudflare-workers-and-kv-504d)) - Includes static HTML, Cf KV, get & put workers.
 - [Official Serverless Quickstart](https://serverless.com/framework/docs/providers/cloudflare/guide/quick-start/) (Serverless) - Guide to use the Serverless Plugin to deploy CfWorkers.
 - [URL shortener with LavaRand](https://github.com/obezuk/cf-workers-link-shortener) (route, app, JS) ([short blog post](levi.lol/url-shortener-built-on-cloudflare/)) - Url shortener built with Cloudflare Workers and LavaRand.
+- [Diving into Technical SEO](https://blog.cloudflare.com/diving-into-technical-seo-cloudflare-workers/) (optmimize, SEO, TypeScript) - Modifying incomming & outgoing requests, inject Hreflang tags,, redirects, etc.
 - [FSharp tutorial](https://github.com/jbeeko/cfworker-web-api) (app, F#) - FSharp example: CRUD contact manager.
 - [API gateway / redirect](https://github.com/jamesbibby/cloudflare-api-gateway) (REST, proxy, JS) ([diagramed article on use case](bibs.codes/posts/cloudflare-worker-api-gatway/)) - Reverse proxy layer to improve performance (HTTP1 vs HTTP2).
+- [Serverless PWA using React](https://github.com/cloudflare/workers-react-pwa-example) (ReactJS, JS) ([Cloudflare article builds up example script](https://blog.cloudflare.com/serverless-pwa-react-cloudflare-workers/)) - Terraform deploy srcipt included.
 - [Supercharge Google Fonts](https://medium.com/@pierluc/supercharge-google-fonts-with-cloudflare-and-service-workers-25c37462fb6a) (optmimize, CDN, JS) ([author's live site](https://www.jirafe.io/)) - Inlines font requests with CfWorker, then caches in browser.
-- [Cryptocurrency API Gateway](https://github.com/stevenpack/cryptoserviceworker) (gatekeeper, route, TypeScript) ([blog post at CloudFlare](https://blog.cloudflare.com/cryptocurrency-api-gateway-typescript-workers/)) - Mini http request routing, then gateway to multiple crypto API providers in 1 file.
+- [Cryptocurrency API Gateway](https://github.com/stevenpack/cryptoserviceworker) (gatekeeper, route, TypeScript) ([blog.CloudFlare](https://blog.cloudflare.com/cryptocurrency-api-gateway-typescript-workers/)) - Mini http request routing, then gateway to multiple crypto API providers in 1 file.
 - [Maintenance Mode static page](https://www.resdevops.com/2018/03/20/cloudflare-workers-maintenance-mode-static-page/) (static, JS) - Includes PowerShell script to toggle.
 
 ## GraphQL
 
-- [Apollo Server Cloudflare & Prisma Concept](gitlab.com/travis-projects/cloudflare-workers-graphql-server) (JS) - Uses apollo-server-cloudflare to create a GraphQL server on Cloudflare Workers, and it also uses graphql-request to connect to a Prisma server.
+- [globally distributed Apollo GraphQL server](https://github.com/signalnerve/workers-graphql-server) (JS) ([Playground demo](https://graphql-on-workers.signalnerve.com/___graphql)) - Debugging, CORS, REST caching.
+- [example Gatsby.js project ](https://github.com/signalnerve/gatsby-cloudflare-workers) (ReactJS, JS) - Blog served via GatsbyJS/React.
 - [Hasura GraphQL Cloudflare Worker](https://github.com/nathanwaters/hasura-cloudflare-worker) (auth, JS) - Example for Facebook-based authorization and GraphQL proxy queries with Hasura.
 - [GraphQL on Edge Workers](https://github.com/cloudflare/workers-graphql-gateway-example) (video, JS) ([video demo](https://youtu.be/E9sDH6ylQc4)) - Workers GraphQL Gateway Example.
 
 ## Local-dev
 
-- [TypeScript Types and mocks](https://github.com/udacity/cloudflare-typescript-workers) (tool, template, TypeScript) - Simple example and/or starting point for a Cf worker script using TypeScript, WebPack, & Jest.
-- [Serverless framework Blueprint](https://github.com/signalnerve/serverless-cloudflare-workers-blueprint) (Serverless, tool, deploy, JS) - Configure your `.env`, & `serverless deploy` away.
 - [Run Cloudflare Worker scripts locally](https://github.com/dollarshaveclub/cloudworker) (tool, JS) - Uses Docker, nice API, includes WASM build support.
+- [TypeScript Types and mocks](https://github.com/udacity/cloudflare-typescript-workers) (tool, template, TypeScript) - Simple example and/or starting point for a CfWorker script using TypeScript, WebPack, & Jest.
+- [cloudflare-workers-sandbox](https://github.com/bitquant/cloudflare-workers-sandbox) (tool, test, JS) - Sandbox environment suitable for running and testing your worker code locally.
+- [Serverless framework Blueprint](https://github.com/signalnerve/serverless-cloudflare-workers-blueprint) (Serverless, tool, deploy, JS) - Configure your `.env`, & `serverless deploy` away.
 - [Codeship to automatically update your Cloudflare Workers](https://github.com/karllhughes/workers-codeship-example) (deploy, example, JS) - Automated Deployment.
 
 ## Localization
@@ -65,11 +69,16 @@ Please use the [Link Suggestion Form](https://airtable.com/shryEZ28iLgjBbTCE) to
 
 ## Security
 
+- [score users' new passwords with zxcvbn](https://github.com/detroitenglish/pw-pwnage-cfworker) (app, REST, JS) - RESTful endpoint for sanely scoring users' new passwords  & querys Troy Hunt's haveibeenpwned collection of +5.1 billion breached accounts.
 - [Set Google Analytics Client ID Cookie](https://gist.github.com/dustinrecko/9f34969250f2e0668d4c4fe4808520a7#file-worker-snippet-js) (article, analytics, JS) ([article: Google Analytics ITP 2.1 Prevention ](https://omr.ruhr/google-analytics-itp-2-1-prevention-http-set-cookie-snippet-182092779d40)) - Fool Webkit's Intelligent Tracking Prevention,  HTTP Set-Cookie /snippet/.
 - [Workaround Cloudflare's Anti-DDoS Protection](https://github.com/hrbrmstr/cfhttr) (tool, Rust) - Workaround Cloudflare Anti-DDoS Protection.
 
 ## Tool
 
+- [Cf-Worker-Kit](https://github.com/lucacasonato/workerkit) (template, TypeScript) - Library to make writing Cloudflare Workers way nicer .
+- [Lazy Invoice PDF generator](http://lazy.invoice.workers.dev/) (pdf, JS) ([source](https://github.com/adamschwartz/lazy.invoice.workers.dev)) - Simple online invoice tool.
+- [GitCF](https://github.com/maple3142/gitcf) (route, JS) ([demo](https://gh.maple3142.net/)) - RawGit clone on CfWorkers..
+- [Template: TypeScript  & Jest by udacity](https://github.com/udacity/cloudflare-typescript-worker-template) (template, TypeScript) - Preconfigured starter template for building a Tslint strictly linted/formatted, Jest tested, Webpack built, TypeScript.
 - [Local cloudflare-workers-kv](https://github.com/bitquant/cloudflare-workers-kv) (KV, local-dev, JS) - Workers KV in your local environment or within a CF Workers env.  Chunks large values above 64kB.
 - [KV interactive viewer](https://github.com/jroyal/cloudflare-workers-kv-viewer) (CLI, JS) - Nice CLI tool to explore keys & values of a Cloudflare account.
 - [CF KV Client for .NET](https://github.com/aozd4v/cloudflare-workers-kv-dotnet-client) (KV, .NET) - .NET Standard 1.4-2.0.
@@ -80,18 +89,15 @@ Please use the [Link Suggestion Form](https://airtable.com/shryEZ28iLgjBbTCE) to
 
 ## Msc
 
-- [x-host: override host proxy](https://github.com/pmeenan/cf-workers/tree/master/xhost) (proxy, JS) - Includes Chrome plugin.  mimics WebPageTest's overrideHost command for local testing. Rewrite all requests to a different host while adding an x-Host header.
 - [proxies-on-cloudflare](https://github.com/GitbookIO/proxies-on-cloudflare) (proxy, loadbalance, TypeScript) - Proxies for Friebase & Mixpanel, simple routing, fallbacks, etc.
-- [simple todo list app using KV & 2 workers](https://github.com/signalnerve/cloudflare-workers-todos) (app, frontend, KV, JS) ([live demo](https://todo.kristianfreeman.com/)) - Includes static HTML, get & put workers.
+- [Google Analytics shield ](https://github.com/boynet/cf-GoogleAnalytics-shield-worker) (SEO, analytics, JS) - Protect google analytics from being blocked by ad blockers.
 - [app to flip images](https://github.com/Kellel/image_flipper) (app, image, WASM, Rust) - Uses Rust's wasm-pack-template.
-- [tools for creating an app](https://github.com/postlight/cloudflare-worker-app-kit) (tool, Preact, TypeScript) - Build & deploy scripts.
 - [go/WASM AMP-transformer](https://github.com/gabbifish/amp-transform-wasm) (AMP, WASM, GoLang) - Go/WASM port of the AMP packager transform library.
 - [Streaming Optimizations](https://github.com/pmeenan/cf-workers/tree/master/streaming-optimizations) (optmimize, cache, JS) - Caches 3rd party scripts & dynamic HTML, inlines Google Fonts CSS.  Non-streaming blocking [version is avaiable](https://github.com/pmeenan/cf-workers/tree/master/optimization-pack).
 - [Blue / Green Deployments](https://github.com/DigitalOptimizationGroup/blue-green-cloudflare-workers) (test, deploy, proxy, JS) - Implementing Canary releasing and A/B testing, release versioning,bash scripts for deploying, uses cookies to lock in version.
 - [simple integration to Cloudflare Workers APIs](https://github.com/jspies/cloudflare-workers-toolkit) (tool, deploy, JS) - Deploy workers, get & remove routs, KV storage, etc.
 - [Writing an API at the Edge with Firestore](https://blog.cloudflare.com/api-at-the-edge-workers-and-firestore/) (article, app, GCS, JS) - Uses Google's Cloud Firestore for storage & JWT for authentication.
 - [Airtable Proxy Cloudflare Worker](https://github.com/portable-cto/airtable-proxy-worker) (AirTable, REST, security, JS) - Hides Airtable Base ID and API Key, Limit requests to specific methods and table, push updates via Travis-CL.
-- [routing middleware](https://github.com/bitquant/cloudflare-workers) (route, tool, JS) - Basic routing handlers.
 - [hashing service](https://github.com/windbirds/workers_examples/blob/master/hash/index.js) (service, JS) - JSON responce with SHA1, SHA286, SHA384, & SHA512 hash responce.
 - [Preact Progressive Web App](https://github.com/DigitalOptimizationGroup/cloudflare-worker-preact-pwa) (frontend, optmimize, Preact, JS) ([Preact worker demo](https://growthcloud.io/)) - Example PWA created by preact-cli.
 - [Wasabi CDN cheap website](https://github.com/mraerino/cdn-static) (static, CDN, TypeScript) - Serves static website from wasabi.com's cheap cloud storage.
