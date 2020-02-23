@@ -8,7 +8,7 @@
 7,KV interactive viewer,https://github.com/jroyal/cloudflare-workers-kv-viewer,2019-05-04,2019-06-07,tool,"tool,CLI",ES2017,nice CLI tool to explore keys & values of a Cloudflare account,,
 8,API gateway / redirect,https://github.com/jamesbibby/cloudflare-api-gateway,2019-02-18,2020-02-05,,"article,REST,proxy",ES2017,reverse proxy layer to improve performance (HTTP1 vs HTTP2),,
 9,Kv Web Explorer,https://github.com/bcnzer/kv-explorer-ui,2018-12-04,2019-06-07,tool,"VueJS,KV,tool",ES2017,Vue.js SPA for viewing Cloudflare KV data,,
-10,Maintenance Mode static page,https://www.resdevops.com/2018/03/20/cloudflare-workers-maintenance-mode-static-page/,2018-03-20,2019-06-07,article,"article,static",ES2017,includes PowerShell script to toggle,,
+10,Maintenance Mode static page,https://www.resdevops.com/2018/03/20/cloudflare-workers-maintenance-mode-static-page/,2018-03-20,2020-02-17,,"article,static",ES2017,includes PowerShell script to toggle,,
 11,tools for creating an app,https://github.com/postlight/cloudflare-worker-app-kit,2019-04-03,2020-02-02,,"tool,Preact",TypeScript,build & deploy scripts,,
 12,append client country,https://github.com/windbirds/workers_examples/blob/master/append_user_country/index.js,2019-02-02,2019-06-07,,analytics,ES2017,,,
 13,basic cache,https://github.com/windbirds/workers_examples/blob/master/basic_cache/index.js,2018-10-21,2019-06-07,,cache,ES2017,,,
@@ -44,7 +44,7 @@
 43,routing middleware,https://github.com/bitquant/cloudflare-workers,2019-05-03,2019-06-08,,"route,tool",ES2015,basic routing handlers,,
 44,very basic auth,https://github.com/dommmel/cloudflare-workers-basic-auth,2019-04-12,2019-06-07,,security,ES2015,"hardcoded user & password auth example ""to protect static html pages"".  Uses WebPack for some reason.  ",,
 45,Serverless framework Blueprint,https://github.com/signalnerve/serverless-cloudflare-workers-blueprint,2019-04-22,2020-02-02,local-dev,"Serverless,tool,deploy",ES2015,"configure your `.env`, & `serverless deploy` away",,
-46,simple todo list app using KV & 2 workers,https://github.com/signalnerve/cloudflare-workers-todos,2019-05-23,2019-07-07,article,"app,frontend,KV",ES2017,"includes static HTML, Cf KV, get & put workers",DEV.to,https://dev.to/cloudflareworkers/building-a-to-do-list-application-with-cloudflare-workers-and-kv-504d
+46,simple todo list app using KV & 2 workers,https://github.com/signalnerve/cloudflare-workers-todos,2019-05-23,2020-02-17,,"app,frontend,KV",ES2017,"includes static HTML, Cf KV, get & put workers",DEV.to,https://dev.to/cloudflareworkers/building-a-to-do-list-application-with-cloudflare-workers-and-kv-504d
 47,un-official Bugsnag notifier,https://github.com/jmshal/bugsnag-js-cloudflare-workers,2019-03-04,2019-06-07,,"library,monitor",ES2015,"report to Bugsnag.com in the last mile, example included",,
 48,CI/CD with Azure,https://github.com/daniel-simpson/Cloudflare-Enterprise-Workers,2018-08-06,2019-06-07,msc,deploy,ES2017,,,
 49,executable to deploy Cloudflare Workers,https://github.com/ao-com/cloudflare-worker-deployer,2018-07-08,2019-06-07,,"deploy,CLI",GoLang,alternative CLI tool incase you're allergic to Wrangler,,
@@ -77,7 +77,7 @@
 76,CI/CD pipeline for CfWorkers using Serverless in Azure,https://medium.com/gettimely/how-to-set-up-ci-cd-pipeline-for-cloudflare-workers-using-serverless-framework-in-azure-devops-aka-1e904e91e130,2018-09-14,2019-06-07,msc,"article,CI/CD",Serverless,walkthough for a code pipeline with Serverless Framework,,
 77,Testing Performance Of Cloudflare Workers,https://medium.com/gaurav-shukla/testing-performance-of-cloudflare-workers-446420c2d269,2019-04-12,2019-06-07,,"article,test",,performance tests for improvements,,
 78,stock ticker app for Slack,https://blog.cloudflare.com/building-a-serverless-slack-bot-using-cloudflare-workers/,2018-08-09,2019-06-07,,"article,app,Slack",ES2017,,,
-79,Writing an API at the Edge with Firestore,https://blog.cloudflare.com/api-at-the-edge-workers-and-firestore/,2019-03-21,2019-06-07,msc,"article,app,GCS",ES2017,uses Google's Cloud Firestore for storage & JWT for authentication,,
+79,Writing an API at the Edge with Firestore,https://blog.cloudflare.com/api-at-the-edge-workers-and-firestore/,2019-03-21,2020-02-13,,"article,app,GCS",ES2017,uses Google's Cloud Firestore for storage & JWT for authentication,,
 80,Diving into Technical SEO,https://blog.cloudflare.com/diving-into-technical-seo-cloudflare-workers/,2019-03-07,2020-02-02,article,"article,optmimize,SEO",TypeScript,"modifying incomming & outgoing requests, inject Hreflang tags,, redirects, etc",,
 81,Serverless PWA using React,https://github.com/cloudflare/workers-react-pwa-example,2018-11-23,2020-02-02,article,"article,ReactJS",ES2017,terraform deploy srcipt included,Cloudflare article builds up example script,https://blog.cloudflare.com/serverless-pwa-react-cloudflare-workers/
 82,Logs from the edge,https://blog.cloudflare.com/logs-from-the-edge/,2018-11-29,2019-06-07,,"article,log",ES2017,uses Elastic Stack (ELK),,
@@ -112,7 +112,7 @@
 114,Portzilla,www.cloudflare.com/apps/portzilla,2019-11-26,2020-02-02,,"app,commercial",ES2017,"A reverse-proxy on the edge, no more NGINX",demo,https://www.networkchimp.com/tutorials/portzilla-api.html
 115,Cassette,www.cloudflare.com/apps/cassette,2019-09-24,2020-02-02,,"app,commercial",ES2015,"Cache object storage assets from S3, GCS, and more on Cloudflare",demo,https://www.networkchimp.com/tutorials/cassette.html
 116,Testing Cloudflare workers,https://findwork.dev/blog/testing-cloudflare-workers/,2019-10-22,2020-02-02,article,"test,tool",ES2015,"There is no extensive tutorial on how to test Cloudflare workers, so I wrote one",,
-117,Minimal Middlware Router,https://github.com/markusahlstrand/cloudworker-router,2019-10-28,2020-02-05,,"route,library",ES2017,"A small (3,36KB) koajs-router-style router for cloudflare workers.",,
+117,Minimal Middlware Router,https://github.com/markusahlstrand/cloudworker-router,2020-02-19,2020-02-23,msc,"route,library",ES2017,"small (3,36KB) koajs-router-style router for cloudflare workers.",,
 118,Built with Workers Showcase,https://workers.cloudflare.com/built-with/,2020-01-29,2020-02-02,boss,"GraphQL,GatsbyJS,ReactJS",ES2017,Websites & projects built with Cloudflare Workers,source,https://github.com/cloudflare/built-with-workers
 119,globally distributed Apollo GraphQL server,https://github.com/signalnerve/workers-graphql-server,2019-12-13,2020-02-02,GraphQL,GraphQL,ES2017,"Debugging, CORS, REST caching",Playground demo,https://graphql-on-workers.signalnerve.com/___graphql
 120,Lazy Invoice PDF generator,http://lazy.invoice.workers.dev/,2019-10-24,2020-02-02,tool,pdf,ES2017,simple online invoice tool,source,https://github.com/adamschwartz/lazy.invoice.workers.dev
@@ -127,9 +127,24 @@
 129,Flash - Response Lantency Simulator,https://github.com/codeb2cc/cf-flash-slothmore,2020-01-02,2020-02-03,,test,ES2017,,,
 130,worker-haskell-template,https://github.com/ento/worker-haskell-template,2020-01-08,2020-02-03,msc,template,Haskell,Wrangler template for a Cloudflare Workers + Haskell (Asterius) project,,
 131,@readme/cloudflare-worker,https://github.com/readmeio/cloudflare-worker,2020-01-14,2020-02-03,,log,ES2017,get your API log data into ReadMe.IO,docs,https://docs.readme.com/metrics/docs/sending-logs-to-readme-with-cloudflare
-132, TomasHubelbauer;s setup tutorial,https://github.com/TomasHubelbauer/cloudflare-worker,2020-01-13,2020-02-03,article,,ES2017,setting up and basic usage checklist,,
+132, TomasHubelbauer;s setup tutorial,https://github.com/TomasHubelbauer/cloudflare-worker,2020-01-13,2020-02-19,,tutorial,ES2017,setting up and basic usage checklist,,
 133,worker-graphql ,https://github.com/BorderlessLabs/worker-graphql,2020-01-12,2020-02-03,API,GraphQL,ES2017,much smaller than Apollo Server,,
 134,cache-crawled-links-worker,https://github.com/cowchimp/cache-crawled-links-worker,2019-08-04,2020-02-03,,cache,ES2017,"proxies requests to an origin server, and pre-caches pages that the user might navigate to.",,
 135,cloudworker-proxy handlers,https://github.com/markusahlstrand/cloudworker-proxy,2020-01-28,2020-02-05,API,"tool,route,AWS,GCS",ES2017,"invoke Lambadas & GC Functions, load balance, static res, logging, auth, rate limiting, mod headers",example,https://proxy.cloudproxy.io/
 136,tiny-request-router ,https://github.com/berstend/tiny-request-router,2020-01-05,2020-02-05,API,route,TypeScript,"battle-tested, fast, generic and type safe router ",,
 137,Axios uses CfWorkers,https://www.axios.com/new-axios-website-google-amp-563e62ba-8708-4965-8f5e-3216bd268383.html,2020-02-06,2020-02-06,boss,article,,"""gradual rollout, perform A/B testing, and perform ESI-style page-stitching""",,
+138,Kristian Freeman's interview at Sanity.io,https://www.sanity.io/blog/how-cloudflares-built-with-workers-was-built,2020-02-11,2020-02-13,article,"interview,video",,How Cloudflare built their showcase site for Workers on Sanity.io and Gatsby… and Workers,YouTube,https://www.youtube.com/watch?time_continue=1007&v=udI-pnsWzpc&feature=emb_title
+139,Use Cloudflare JS Workers to Deploy Your SSG,https://levelup.gitconnected.com/use-cloudflare-javascript-workers-to-deploy-you-static-generated-site-ssg-1c518e078646,2020-01-30,2020-02-17,article,"setup,static,NextJS",ES2017,Complete tutorial: config at Cloudflare's admin dashboard to using KV to store versions.,,
+140,tiny-request-router,https://github.com/berstend/tiny-request-router,2020-01-05,2020-02-20,API,route,ES2017,"battle-tested, 2nd generation minimal and opinionless router",,
+141,Hosting Static Wordpress Sites,https://developers.cloudflare.com/workers/tutorials/hosting-static-wordpress-sites/,2019-11-01,2020-02-21,boss,"WordPress,article,static",ES2017,"WP2Static, then setup Workers project",YouTube,https://youtu.be/LR7YF1z4VzM
+142,Setup CfWorkers on a Custom Domain,https://www.andressevilla.com/how-to-setup-cloudflare-workers-on-a-custom-domain/,2019-12-11,2020-02-21,,"article,setup",,,,
+143,Abused CfWorker Used to Inject Korean SEO Spam,https://blog.sucuri.net/2020/02/abused-cloudflare-workers-service-used-to-inject-korean-seo-spam.html,2020-02-13,2020-02-21,security,"article,SEO,inject",,SEO spam showed only in Google search results,,
+144,placeholders.dev,https://placeholders.dev/,2020-02-22,2020-02-22,boss,"service,REST",ES2017,Generate custom SVG placeholder images,source,https://github.com/Cherry/placeholders.dev
+145,Crafthead,https://github.com/astei/crafthead,2020-02-20,2020-02-23,,service,ES2017,Super scalable Minecraft avatar generation,demo,https://crafthead.net/
+146,ethereum-worker,https://github.com/shalzz/ethereum-worker,2020-02-16,2020-02-23,,"cache,blockchain",TypeScript,caching layer for an ethereum node ,,
+147,worker-pastebin,https://github.com/PeterCxy/worker-pastebin,2020-02-19,2020-02-23,,tool,CoffeeScript ,,,
+148,kv-orm/cf-workers ,kv-orm/cf-workers ,2020-02-19,2020-02-23,,KV,TypeScript,,,
+149, wilsonzlin/edgesearch,https://github.com/wilsonzlin/edgesearch,2020-02-15,2020-02-23,boss,"REST,service",Rust,full text search API using WebAssembly,,
+150,Google Drive Index,https://github.com/maple3142/GDIndex,2020-01-04,2020-02-23,,VueJS,ES2017,,demo,https://gdindex-demo.maple3142.workers.dev/
+151,Moving MCVersions.net with Sites,https://nodecraft.com/blog/development/moving-mcversions-serverless-with-cloudflare-workers-sites,2020-02-06,2020-02-23,,"Sites,article",,,,
+152,Blogging w/Gatsby & headless Ghost CMS,https://www.mskog.com/posts/changing-my-blog-from-hugo-to-gatsby/,2020-02-15,2020-02-23,,"CMS,article",,,,
