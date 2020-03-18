@@ -6,12 +6,15 @@ A curated list of awesome articles & code for **[Cloudflare Workers](https://wor
 
 Inspired by the [awesome](https://github.com/sindresorhus/awesome) list.  (A bit different, since the [CSV bookmark dump](https://github.com/tomByrer/awesome-cloudflare-workers/blob/master/cloudflare-workers-bookmarks.csv#L1) contains *many* other links that didn't make the 'awesome' list.)
 
+The "Emergency-management" links are for projects that help out with COVID-19 and other emgerinces.  "Boss" links are top examples to help convince others (namely your boss or CTO).
+
 Please use the [Link Suggestion Form](https://airtable.com/shryEZ28iLgjBbTCE) to add an URL to this list.  To fix something, suggest a new catgory, tag, etc, reach me on Twitter.
 
 
 ## Contents
 
  - [Official](#official)
+ - [Emergency-management](#emergency-management)
  - [Boss](#boss)
  - [Article](#article)
  - [GraphQL](#GraphQL)
@@ -29,6 +32,11 @@ Please use the [Link Suggestion Form](https://airtable.com/shryEZ28iLgjBbTCE) to
 - [Official Documentation](https://developers.cloudflare.com/workers/about/) - General docs, includes configurations, Cf KeyValue data store, and recipes.
 - [Official Blog](https://blog.cloudflare.com/tag/workers/) - Cloudflare's blog posts tagged 'worker'.
 
+## Emergency-management
+
+- [US COVID-19 APIs](https://github.com/COVID19Tracking/covid-tracking-api) [REST, GraphQL, CORVID19, JS] ([GraphQL Playground](https://covidtracking.com/api/playground)) - Scraped & hand-verifed Coronavirus data by county & states in USA.
+- [API for COVID-19 stats in India](https://github.com/amodm/api-covid19-in) [REST, health, CORVID19, JS] - Scrapes Ministry of Health and Family Welfare & unofficial sources.
+
 ## Boss
 
 - [placeholders.dev](https://placeholders.dev/) [service, REST, JS] ([source](https://github.com/Cherry/placeholders.dev)) - Generate custom SVG placeholder images.
@@ -41,7 +49,6 @@ Please use the [Link Suggestion Form](https://airtable.com/shryEZ28iLgjBbTCE) to
 
 - [Kristian Freeman's interview at Sanity.io](https://www.sanity.io/blog/how-cloudflares-built-with-workers-was-built) [interview, video] ([YouTube](https://www.youtube.com/watch?time_continue=1007&v=udI-pnsWzpc&feature=emb_title)) - How Cloudflare built their showcase site for Workers on Sanity.io and Gatsby… and Workers.
 - [Use Cloudflare JS Workers to Deploy Your SSG](https://levelup.gitconnected.com/use-cloudflare-javascript-workers-to-deploy-you-static-generated-site-ssg-1c518e078646) [setup, static, NextJS, JS] - Complete tutorial: config at Cloudflare's admin dashboard to using KV to store versions..
-- [Blog app](https://telex.blog/) [KV, JS] ([source](https://github.com/panda-sandeep/telex)) - Write posts anonymously.
 - [Testing Cloudflare workers](https://findwork.dev/blog/testing-cloudflare-workers/) [test, tool, JS] - There is no extensive tutorial on how to test Cloudflare workers, so I wrote one.
 - [Deploy a React App](https://developers.cloudflare.com/workers/tutorials/deploy-a-react-app/) [ReactJS, video, JS] ([source](https://github.com/cloudflare/react-workers-template)) - .
 - [Elm CfWorkers example](https://github.com/choonkeat/elm-serverless-edge) [example, Elm] - Elm on Cloudflare Workers with KV.
@@ -81,6 +88,8 @@ Please use the [Link Suggestion Form](https://airtable.com/shryEZ28iLgjBbTCE) to
 
 ## Tool
 
+- [Cloudflare Workers Time Tests](https://github.com/EverlastingBugstopper/cf-workers-benchmark) [test, JS] - Example development environment with three patterns for benchmarking Cloudflare edge workers.
+- [CLI KV store tool](https://github.com/saibotsivad/cloudflare-worker-key-value) [CLI, KV, JS] - .
 - [Cf-Worker-Kit](https://github.com/lucacasonato/workerkit) [template, TypeScript] - Library to make writing Cloudflare Workers way nicer .
 - [Lazy Invoice PDF generator](http://lazy.invoice.workers.dev/) [pdf, JS] ([source](https://github.com/adamschwartz/lazy.invoice.workers.dev)) - Simple online invoice tool.
 - [GitCF](https://github.com/maple3142/gitcf) [route, JS] ([demo](https://gh.maple3142.net/)) - RawGit clone on CfWorkers..
@@ -90,12 +99,12 @@ Please use the [Link Suggestion Form](https://airtable.com/shryEZ28iLgjBbTCE) to
 - [KV interactive viewer](https://github.com/jroyal/cloudflare-workers-kv-viewer) [CLI, JS] - Nice CLI tool to explore keys & values of a Cloudflare account.
 - [CF KV Client for .NET](https://github.com/aozd4v/cloudflare-workers-kv-dotnet-client) [KV, .NET] - .NET Standard 1.4-2.0.
 - [Kv Web Explorer](https://github.com/bcnzer/kv-explorer-ui) [VueJS, KV, JS] - Vue.js SPA for viewing Cloudflare KV data.
-- [Cloudflare Workers Time Tests](https://github.com/EverlastingBugstopper/cf-workers-benchmark) [test, JS] - Example development environment with three patterns for benchmarking Cloudflare edge workers.
 - [echo](https://github.com/lebinh/cloudflare-workers#workers-zoo) [test, TypeScript] - Echo back the request/response from worker point of view.
 
 ## Msc
 
-- [Minimal Middlware Router](https://github.com/markusahlstrand/cloudworker-router) [route, library, JS] - Small (3,36KB) koajs-router-style router for cloudflare workers..
+- [various @ nchlswhttkr/workers](https://github.com/nchlswhttkr/workers) [route, Slack, tool, JS] - Rush/pnpm mono repo: GoLang interpreter, newsletter, WebHooks, +.
+- [workers-typescript-template](https://github.com/EverlastingBugstopper/worker-typescript-template) [template, TypeScript] - With mocha tests, prettier.
 - [worker-haskell-template](https://github.com/ento/worker-haskell-template) [template, Haskell] - Wrangler template for a Cloudflare Workers + Haskell (Asterius) project.
 - [Assorted demos ](https://github.com/mikaelvesavuori/cloudflare-workers-demos) [route, JS] - Checks: if bot, moble, user-country, A/B testing, etc.
 - [Google Analytics shield ](https://github.com/boynet/cf-GoogleAnalytics-shield-worker) [SEO, analytics, JS] - Protect google analytics from being blocked by ad blockers.

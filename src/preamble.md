@@ -6,5 +6,7 @@ A curated list of awesome articles & code for **[Cloudflare Workers](https://wor
 
 Inspired by the [awesome](https://github.com/sindresorhus/awesome) list.  (A bit different, since the [CSV bookmark dump](https://github.com/tomByrer/awesome-cloudflare-workers/blob/master/cloudflare-workers-bookmarks.csv#L1) contains *many* other links that didn't make the 'awesome' list.)
 
+The "Emergency-management" links are for projects that help out with COVID-19 and other emgerinces.  "Boss" links are top examples to help convince others (namely your boss or CTO).
+
 Please use the [Link Suggestion Form](https://airtable.com/shryEZ28iLgjBbTCE) to add an URL to this list.  To fix something, suggest a new catgory, tag, etc, reach me on Twitter.
 
