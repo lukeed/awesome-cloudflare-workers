@@ -27,6 +27,8 @@ Please use the [Link Suggestion Form](https://airtable.com/shryEZ28iLgjBbTCE) to
 
 ## Official
 
+- [Wrangler GitHub Action](https://github.com/cloudflare/wrangler-action) [GitHub, deploy, Docker] - Zero-config Cloudflare Workers deployment .
+- [Official Gatsby deployment docs](https://www.gatsbyjs.org/docs/deploying-to-cloudflare-workers/) [GatsbyJS, deploy, article] - .
 - [Wrangler: offiical CLI tool](https://github.com/cloudflare/wrangler) [WASM, CLI, tool, Rust] ([brief tutorial](https://dev.to/cloudflareworkers/a-brief-guide-to-what-s-new-with-cloudflare-workers-di8)) - Available via `npm` & `cargo`, can build & deploy JS, Rust, & C/C++ projects via templates.
 - [Cloudflare's Worker Forum / BBS](https://community.cloudflare.com/c/developers/workers) - Offical community forum.
 - [Official Documentation](https://developers.cloudflare.com/workers/about/) - General docs, includes configurations, Cf KeyValue data store, and recipes.
@@ -34,11 +36,12 @@ Please use the [Link Suggestion Form](https://airtable.com/shryEZ28iLgjBbTCE) to
 
 ## Emergency-management
 
-- [US COVID-19 APIs](https://github.com/COVID19Tracking/covid-tracking-api) [REST, GraphQL, CORVID19, JS] ([GraphQL Playground](https://covidtracking.com/api/playground)) - Scraped & hand-verifed Coronavirus data by county & states in USA.
+- [US COVID-19 APIs](https://github.com/COVID19Tracking/website/) [REST, GraphQL, CORVID19, JS] ([GraphQL Playground](https://covidtracking.com/api/playground)) - Scraped & hand-verifed Coronavirus data by county & states in USA.
 - [API for COVID-19 stats in India](https://github.com/amodm/api-covid19-in) [REST, health, CORVID19, JS] - Scrapes Ministry of Health and Family Welfare & unofficial sources.
 
 ## Boss
 
+- [Edgesearch](https://github.com/wilsonzlin/edgesearch) [search, WASM, Rust] - Full-text search using, WebAssembly & Roaring Bitmaps.
 - [placeholders.dev](https://placeholders.dev/) [service, REST, JS] ([source](https://github.com/Cherry/placeholders.dev)) - Generate custom SVG placeholder images.
 - [ wilsonzlin/edgesearch](https://github.com/wilsonzlin/edgesearch) [REST, service, Rust] - Full text search API using WebAssembly.
 - [Axios uses CfWorkers](https://www.axios.com/new-axios-website-google-amp-563e62ba-8708-4965-8f5e-3216bd268383.html) [article] - "gradual rollout, perform A/B testing, and perform ESI-style page-stitching".
@@ -81,6 +84,7 @@ Please use the [Link Suggestion Form](https://airtable.com/shryEZ28iLgjBbTCE) to
 
 ## Security
 
+- [Generate JWTs using the WebCrypto API ](https://github.com/sagi/workers-jwt) [JS] - .
 - [Abused CfWorker Used to Inject Korean SEO Spam](https://blog.sucuri.net/2020/02/abused-cloudflare-workers-service-used-to-inject-korean-seo-spam.html) [article, SEO, inject] - SEO spam showed only in Google search results.
 - [score users' new passwords with zxcvbn](https://github.com/detroitenglish/pw-pwnage-cfworker) [app, REST, JS] - RESTful endpoint for sanely scoring users' new passwords  & querys Troy Hunt's haveibeenpwned collection of +5.1 billion breached accounts.
 - [Set Google Analytics Client ID Cookie](https://gist.github.com/dustinrecko/9f34969250f2e0668d4c4fe4808520a7#file-worker-snippet-js) [article, analytics, JS] ([article: Google Analytics ITP 2.1 Prevention ](https://omr.ruhr/google-analytics-itp-2-1-prevention-http-set-cookie-snippet-182092779d40)) - Fool Webkit's Intelligent Tracking Prevention,  HTTP Set-Cookie /snippet/.
@@ -89,6 +93,7 @@ Please use the [Link Suggestion Form](https://airtable.com/shryEZ28iLgjBbTCE) to
 ## Tool
 
 - [Cloudflare Workers Time Tests](https://github.com/EverlastingBugstopper/cf-workers-benchmark) [test, JS] - Example development environment with three patterns for benchmarking Cloudflare edge workers.
+- [Cloudflare Workers <3 Create React App](https://github.com/juiceo/cloudflare-worker-cra) [ReactJS, template, JS] - .
 - [CLI KV store tool](https://github.com/saibotsivad/cloudflare-worker-key-value) [CLI, KV, JS] - .
 - [Cf-Worker-Kit](https://github.com/lucacasonato/workerkit) [template, TypeScript] - Library to make writing Cloudflare Workers way nicer .
 - [Lazy Invoice PDF generator](http://lazy.invoice.workers.dev/) [pdf, JS] ([source](https://github.com/adamschwartz/lazy.invoice.workers.dev)) - Simple online invoice tool.
@@ -104,7 +109,6 @@ Please use the [Link Suggestion Form](https://airtable.com/shryEZ28iLgjBbTCE) to
 ## Msc
 
 - [various @ nchlswhttkr/workers](https://github.com/nchlswhttkr/workers) [route, Slack, tool, JS] - Rush/pnpm mono repo: GoLang interpreter, newsletter, WebHooks, +.
-- [workers-typescript-template](https://github.com/EverlastingBugstopper/worker-typescript-template) [template, TypeScript] - With mocha tests, prettier.
 - [worker-haskell-template](https://github.com/ento/worker-haskell-template) [template, Haskell] - Wrangler template for a Cloudflare Workers + Haskell (Asterius) project.
 - [Assorted demos ](https://github.com/mikaelvesavuori/cloudflare-workers-demos) [route, JS] - Checks: if bot, moble, user-country, A/B testing, etc.
 - [Google Analytics shield ](https://github.com/boynet/cf-GoogleAnalytics-shield-worker) [SEO, analytics, JS] - Protect google analytics from being blocked by ad blockers.
