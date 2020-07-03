@@ -129,6 +129,10 @@ Please use the [Link Suggestion Form](https://airtable.com/shryEZ28iLgjBbTCE) to
 - [Awesome Service Workers](https://github.com/TalAter/awesome-service-workers#awesome-service-workers-) [JS] - Cf Service Workers are based on browser SW.
 
 
+## Also by Author
+
+- [tomByrer/awesome-awesome-covid19](https://github.com/tomByrer/awesome-awesome-covid19#awesome-awesome-covid19) - meta-lists around the not-awesome 2019 novel Coronavirus
+
 ## License
 
 [![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-sa.svg)](https://creativecommons.org/licenses/by-sa/4.0/)

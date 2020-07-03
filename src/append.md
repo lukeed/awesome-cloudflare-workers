@@ -1,5 +1,8 @@
 
 
+## Also by Author
+
+- [tomByrer/awesome-awesome-covid19](https://github.com/tomByrer/awesome-awesome-covid19#awesome-awesome-covid19) - meta-lists around the not-awesome 2019 novel Coronavirus
 
 ## License
 
