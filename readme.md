@@ -21,8 +21,8 @@ Please use the [Link Suggestion Form](https://airtable.com/shryEZ28iLgjBbTCE) to
  - [Local-dev](#local-dev)
  - [Localization](#localization)
  - [Security](#security)
- - [Tool](#tool)
- - [Msc](#msc)
+ - [Tools](#tools)
+ - [Miscellaneous](#miscellaneous)
  - [Related](#related)
 
 ## Official
@@ -90,7 +90,7 @@ Please use the [Link Suggestion Form](https://airtable.com/shryEZ28iLgjBbTCE) to
 - [Set Google Analytics Client ID Cookie](https://gist.github.com/dustinrecko/9f34969250f2e0668d4c4fe4808520a7#file-worker-snippet-js) [article, analytics, JS] ([article: Google Analytics ITP 2.1 Prevention ](https://omr.ruhr/google-analytics-itp-2-1-prevention-http-set-cookie-snippet-182092779d40)) - Fool Webkit's Intelligent Tracking Prevention,  HTTP Set-Cookie /snippet/.
 - [Workaround Cloudflare's Anti-DDoS Protection](https://github.com/hrbrmstr/cfhttr) [tool, Rust] - Workaround Cloudflare Anti-DDoS Protection.
 
-## Tool
+## Tools
 
 - [Cloudflare Workers Time Tests](https://github.com/EverlastingBugstopper/cf-workers-benchmark) [test, JS] - Example development environment with three patterns for benchmarking Cloudflare edge workers.
 - [Cloudflare Workers <3 Create React App](https://github.com/juiceo/cloudflare-worker-cra) [ReactJS, template, JS] - .
@@ -106,7 +106,7 @@ Please use the [Link Suggestion Form](https://airtable.com/shryEZ28iLgjBbTCE) to
 - [Kv Web Explorer](https://github.com/bcnzer/kv-explorer-ui) [VueJS, KV, JS] - Vue.js SPA for viewing Cloudflare KV data.
 - [echo](https://github.com/lebinh/cloudflare-workers#workers-zoo) [test, TypeScript] - Echo back the request/response from worker point of view.
 
-## Msc
+## Miscellaneous
 
 - [various @ nchlswhttkr/workers](https://github.com/nchlswhttkr/workers) [route, Slack, tool, JS] - Rush/pnpm mono repo: GoLang interpreter, newsletter, WebHooks, +.
 - [worker-haskell-template](https://github.com/ento/worker-haskell-template) [template, Haskell] - Wrangler template for a Cloudflare Workers + Haskell (Asterius) project.
@@ -124,19 +124,22 @@ Please use the [Link Suggestion Form](https://airtable.com/shryEZ28iLgjBbTCE) to
 - [CI/CD with Azure](https://github.com/daniel-simpson/Cloudflare-Enterprise-Workers) [deploy, JS] - .
 - [DNS lookup and dig app](https://github.com/matthewgall/beta.dnsjson.com) [app, frontend, JS] ([dnsjson.com - live app](https://beta.dnsjson.com/)) - .
 
+
 ## Related
 
 - [Awesome Service Workers](https://github.com/TalAter/awesome-service-workers#awesome-service-workers-) [JS] - Cf Service Workers are based on browser SW.
 
 
-## Also by Author
+## Credits
 
-- [tomByrer/awesome-awesome-covid19](https://github.com/tomByrer/awesome-awesome-covid19#awesome-awesome-covid19) - meta-lists around the not-awesome 2019 novel Coronavirus
+Thank you [Tom Bryer](https://github.com/tomByrer) for creating, maintaining, and transferring this list to the Cloudflare team! We – and the community – appreciate it.
+
 
 ## License
 
 [![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-sa.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
+
 #### [Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/)
 
-You are free to share & alter this, as long as you give credit & keep same license.
+You are free to share and alter this, as long as you give credit & keep same license.
